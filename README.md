@@ -83,16 +83,14 @@ Output image
 
 
 ## Options
-
 | Option | Description | 
 | ------ | ------ |
 | path [required] | path to image file
-| width [required] | largest image width
-| height | largest image height
+| width [required] | largest image width (in pixels)
+| height | largest image height (in pixels)
 | alt | image alt tag
 | sizes | all sizes (in widths) you want to output
 | classes | single class names seperated by spaces
-
 
 
 ### Helpful
@@ -107,6 +105,8 @@ Output image
 ### Todo
 - add in default settings
 - remove `sizes` being required
+- add `loading` attribute
+- consider adding the other image attributes (`crossorigin`, `ismap`, `longdesc`, `referrerpolicy`, `usemap`)
 
 ## Other great 11ty image plugins
 - [eleventy-respimg](https://github.com/eeeps/eleventy-respimg)

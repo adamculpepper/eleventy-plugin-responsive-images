@@ -29,6 +29,7 @@ module.exports = function(eleventyConfig, pluginNamespace) {
 					' srcset="' + srcset + '"' +
 					(parameter.alt ? ' alt="' + parameter.alt.trim() + '"' : '') +
 					(parameter.classes ? ' class="' + parameter.classes + '"' : '') +
+					(parameter.loading ? ' loading="' + parameter.loading + '"' : '') +
 					'>';
 			}
 		});
