@@ -110,7 +110,7 @@ Output image
 
 ### Todo
 - add in default settings
-- add in template shortcode syntax (nunjucks, liquid, etc.)
+- add in template shortcode syntax for attribute variables (nunjucks, liquid, etc.)
 - remove `sizes` being required
 - consider adding the other image attributes (`crossorigin`, `ismap`, `longdesc`, `referrerpolicy`, `usemap`)1
 
