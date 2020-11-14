@@ -1,0 +1,29 @@
+{
+  "name": "eleventy-plugin-responsive-images",
+  "version": "0.0.1",
+  "description": "An Eleventy plugin for responsive images using a shortcode to pass in only the pieces you need",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamculpepper/eleventy-plugin-responsive-images.git"
+  },
+  "keywords": [
+    "eleventy",
+    "cloudinary",
+    "responsive",
+    "images"
+  ],
+  "author": {
+    "name": "Adam Culpepper",
+    "email": "me@adamculpepper.net",
+    "url": "https://adamculpepper.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamculpepper/eleventy-plugin-responsive-images/issues"
+  },
+  "homepage": "https://github.com/adamculpepper/eleventy-plugin-responsive-images#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
