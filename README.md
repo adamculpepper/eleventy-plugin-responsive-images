@@ -66,7 +66,7 @@ eleventyConfig.hostname = "https://sitename.netlify.app";
 
 
 ## Usage
-The following shortcode can be used
+The following shortcode can be used with all the available options (only `src` and `sizes` are required).
 
 ```
 {% respimg
