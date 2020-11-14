@@ -1,6 +1,12 @@
 # Responsive Images - Eleventy Plugin (powered by Cloudinary)
 An [Eleventy](https://11ty.dev) shortcode that enables you to add an image from your [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/xdosfzqjnaqemyshp52j) account.
 
+[![Maintained](https://img.shields.io/maintenance/yes/2020?style=for-the-badge)](https://github.com/adamculpepper)
+[![Size](https://img.shields.io/github/size/adamculpepper/eleventy-plugin-responsive-images/.eleventy.js?label=Size&style=for-the-badge)](https://github.com/adamculpepper/eleventy-plugin-responsive-images/blob/master/.eleventy.js)
+[![Stars](https://img.shields.io/github/stars/adamculpepper/eleventy-plugin-responsive-images?style=for-the-badge)](https://github.com/adamculpepper/eleventy-plugin-responsive-images/stargazers)
+[![Issues](https://img.shields.io/github/issues/adamculpepper/eleventy-plugin-responsive-images?style=for-the-badge)](https://github.com/adamculpepper/eleventy-plugin-responsive-images/issues)
+[![License](https://img.shields.io/github/license/adamculpepper/eleventy-plugin-responsive-images?style=for-the-badge)](https://github.com/adamculpepper/eleventy-plugin-responsive-images/blob/master/LICENSE)
+
 ## What does it do?
 Turns [11ty shortcodes](https://www.11ty.io/docs/shortcodes/) like this:
 
@@ -71,9 +77,23 @@ The following shortcode can be used
 %}
 ```
 
-Output
+Output image
 
 <img src="https://res.cloudinary.com/demo/image/upload/w_300,h_200,c_crop/sample.jpg" alt="Cloudinary Sample Image">
+
+
+## Options
+
+| Option | Description | 
+| ------ | ------ |
+| path [required] | path to image file
+| width [required] | largest image width
+| height | largest image height
+| alt | image alt tag
+| sizes | all sizes (in widths) you want to output
+| classes | single class names seperated by spaces
+
+
 
 ### Helpful
 - Make sure that the domains where you're hosting your photos are whitelisted in your Cloudinary settings, under *Settings > Security > Allowed fetch domains*. If you leave the field blank Cloudinary will [`fetch`](https://cloudinary.com/documentation/fetch_remote_images#remote_image_fetch_url) from any domain.
