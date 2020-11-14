@@ -12,12 +12,12 @@ Turns [11ty shortcodes](https://www.11ty.io/docs/shortcodes/) like this:
 
 ``` nunjucks
 {% respimg
-	path="cat.jpg",
+	src="cat.jpg",
 	width="320",
 	height="256",
 	alt="Cat Photo",
 	sizes="320, 640, 960, 1280",
-	classes="border img-fluid"
+	class="border img-fluid"
 %}
 ```
 
@@ -68,12 +68,12 @@ The following shortcode can be used
 
 ```
 {% respimg
-	path="sample.jpg",
+	src="sample.jpg",
 	width="300",
 	height="200",
 	alt="Cat Photo",
 	sizes="300, 500, 700, 900",
-	classes="border img-fluid"
+	class="border img-fluid"
 %}
 ```
 
