@@ -95,8 +95,9 @@ Output image
 | `alt` | "*Cat Photo*" | image alt tag
 | `loading` | *"lazy"* or *"eager"* | Lazy load the image or load immediatly
 | `class` | "*class1 class2 class3*" | single class names seperated by spaces
-> Note: variables can be used as attribute values. Syntax varies by the template rendering engine used.
-> Note: error handling will print out in place of your image if you miss a required attribute
+> **Notes**
+> - variables can be used as attribute values. Syntax varies by the template rendering engine used
+> - error handling will print out in place of your image if you miss a required attribute
 
 ### Helpful
 - Make sure that the domains where you're hosting your photos are whitelisted in your Cloudinary settings, under *Settings > Security > Allowed fetch domains*. If you leave the field blank Cloudinary will [`fetch`](https://cloudinary.com/documentation/fetch_remote_images#remote_image_fetch_url) from any domain.
