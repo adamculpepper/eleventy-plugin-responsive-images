@@ -12,12 +12,12 @@ Turns [11ty shortcodes](https://www.11ty.io/docs/shortcodes/) like this:
 
 ``` nunjucks
 {% respimg
-	src="cat.jpg",
-	width="320",
-	height="256",
-	alt="Cat Photo",
-	sizes="320, 640, 960, 1280",
-	class="border img-fluid"
+    src="cat.jpg",
+    width="320",
+    height="256",
+    alt="Cat Photo",
+    sizes="320, 640, 960, 1280",
+    class="border img-fluid"
 %}
 ```
 
@@ -33,8 +33,10 @@ into a responsive `<img>` tag, like this:
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_640/https://domain.com/cat.jpg 640w,
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_960/https://domain.com/cat.jpg 960w,
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_1280/https://domain.com/cat.jpg 1280w"
-    sizes="(max-width: 1280px) 100vw, 1280px"
+        sizes="(max-width: 1280px) 100vw, 1280px"
     alt="Cat Photo"
+    loading="lazy"
+    class="border img-fluid"
 />
 ```
 
@@ -58,7 +60,7 @@ eleventyConfig.addPlugin(eleventyNavigationPlugin);
 > Your *hostname* will be a live url that you're deploying your JAMstack build to. 
 ```
 eleventyConfig.cloudinaryCloudName = "your-cloud-name";
-eleventyConfig.hostname = 'https://sitename.netlify.app';
+eleventyConfig.hostname = "https://sitename.netlify.app";
 ```
 
 
@@ -68,12 +70,13 @@ The following shortcode can be used
 
 ```
 {% respimg
-	src="sample.jpg",
-	width="300",
-	height="200",
-	alt="Cat Photo",
-	sizes="300, 500, 700, 900",
-	class="border img-fluid"
+    src="sample.jpg",
+    width="300",
+    height="200",
+    sizes="300, 500, 700, 900",
+    alt="Cat Photo",
+    loading="lazy"
+    class="border img-fluid"
 %}
 ```
 
@@ -88,8 +91,8 @@ Output image
 | src [required] | "*/images/cat.jpg*" | path to image file
 | width [required] | "*300*" | largest image width (in pixels)
 | height | "*250*" | largest image height (in pixels)
-| alt | "*Cat Photo*" | image alt tag
 | sizes | "*300, 400, 500, 600*" | all sizes (in widths) you want to output
+| alt | "*Cat Photo*" | image alt tag
 | loading | *"lazy"* or *"eager"* | Lazy load the image or load immediatly
 | class | "*class1 class2 class3*" | single class names seperated by spaces
 > Note: variables can be used as attribute values. Syntax varies by the template rendering engine used.
