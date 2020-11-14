@@ -1,13 +1,15 @@
 {
   "name": "eleventy-plugin-responsive-images",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An Eleventy plugin for responsive images using a shortcode to pass in only the pieces you need",
   "main": ".eleventy.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adamculpepper/eleventy-plugin-responsive-images.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "eleventy",
     "cloudinary",
