@@ -50,7 +50,7 @@ npm install eleventy-plugin-responsive-images
 **Step 2** - Open the Eleventy config file (probably `.eleventy.js`) and add in the `require` and `addPlugin` lines below toward the top of the file
 ```
 const responsiveImages = require("eleventy-plugin-responsive-images");
-eleventyConfig.addPlugin(eleventyNavigationPlugin);
+eleventyConfig.addPlugin(responsiveImages);
 ```
 
 **Step 3** - In the same file, locate the `module.exports = function(eleventyConfig) {` line, pasting the following lines somewhere below that line and then change the values.
@@ -114,5 +114,5 @@ Output image
 
 ## Other great 11ty image plugins
 - [eleventy-respimg](https://github.com/eeeps/eleventy-respimg)
+- [eleventy-plugin-cloudinary](https://github.com/juanfernandes/eleventy-plugin-cloudinary)
 - [eleventy-plugin-images-responsiver](https://github.com/nhoizey/images-responsiver)
-- [{% cloudinaryImage %}](https://github.com/juanfernandes/eleventy-plugin-cloudinary)
