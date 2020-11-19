@@ -54,14 +54,14 @@ eleventyConfig.addPlugin(responsiveImages);
 ```
 
 **Step 3** - In the same file, locate the `module.exports = function(eleventyConfig) {` line, pasting the following lines somewhere below that line and then change the values.
-
-> Your [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/xdosfzqjnaqemyshp52j) CloudName can be found in *Dashboard > Account Details > Cloud name*
->
-> Your *hostname* will be a live url that you're deploying your JAMstack build to. 
 ```
 eleventyConfig.cloudinaryCloudName = "your-cloud-name";
 eleventyConfig.hostname = "https://sitename.netlify.app";
 ```
+
+> Your [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/xdosfzqjnaqemyshp52j) CloudName can be found in *Dashboard > Account Details > Cloud name*
+>
+> Your *hostname* will be a live url that you're deploying your JAMstack build to. 
 
 
 
@@ -80,7 +80,7 @@ The following shortcode can be used with all the available options (only `src` a
 %}
 ```
 
-Output image
+Output image:
 
 <img src="https://res.cloudinary.com/demo/image/upload/w_300,h_200,c_crop/sample.jpg" alt="Cloudinary Sample Image">
 
@@ -112,7 +112,7 @@ Output image
 - add in default settings
 - add in template shortcode syntax for attribute variables (nunjucks, liquid, etc.)
 - remove `sizes` being required
-- consider adding the other image attributes (`crossorigin`, `ismap`, `longdesc`, `referrerpolicy`, `usemap`)1
+- consider adding the other image attributes (`crossorigin`, `ismap`, `longdesc`, `referrerpolicy`, `usemap`)
 
 ## Other great 11ty image plugins
 - [eleventy-respimg](https://github.com/eeeps/eleventy-respimg)
