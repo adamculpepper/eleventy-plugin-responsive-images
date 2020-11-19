@@ -1,20 +1,19 @@
 {
   "name": "eleventy-plugin-responsive-images",
   "version": "0.0.4",
-  "description": "An Eleventy plugin for responsive images using a shortcode to pass in only the pieces you need",
+  "description": "An Eleventy plugin that adds a shortcode to enable you to add a responsive image from your Cloudinary account.",
   "main": ".eleventy.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adamculpepper/eleventy-plugin-responsive-images.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "keywords": [
+    "11ty",
     "eleventy",
     "cloudinary",
     "responsive",
-    "images"
+    "responsive-image",
+    "responsive-images"
   ],
   "author": {
     "name": "Adam Culpepper",
