@@ -1,5 +1,5 @@
 # Responsive Images - Eleventy Plugin (powered by Cloudinary)
-An [Eleventy](https://11ty.dev) shortcode that enables you to add an image from your [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/xdosfzqjnaqemyshp52j) account.
+An [Eleventy](https://11ty.dev) plugin that adds a shortcode to enable you to add a responsive image from your [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/xdosfzqjnaqemyshp52j) account.
 
 [![Maintained](https://img.shields.io/maintenance/yes/2020?style=for-the-badge)](https://github.com/adamculpepper)
 [![Size](https://img.shields.io/github/size/adamculpepper/eleventy-plugin-responsive-images/.eleventy.js?label=Size&style=for-the-badge)](https://github.com/adamculpepper/eleventy-plugin-responsive-images/blob/master/.eleventy.js)
