@@ -33,7 +33,7 @@ into a responsive `<img>` tag, like this:
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_640/https://domain.com/cat.jpg 640w,
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_960/https://domain.com/cat.jpg 960w,
         https://res.cloudinary.com/your-cloud-name/image/fetch/q_auto,f_auto,w_1280/https://domain.com/cat.jpg 1280w"
-        sizes="(max-width: 1280px) 100vw, 1280px"
+    sizes="(max-width: 1280px) 100vw, 1280px"
     alt="Cat Photo"
     loading="lazy"
     class="border img-fluid"
